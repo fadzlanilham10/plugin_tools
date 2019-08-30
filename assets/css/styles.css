@@ -1,0 +1,269 @@
+.jumbotron{
+    background: url('../../img/wiy3.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 575px;
+}
+.jumbotron1{
+    background: url('../../img/mobile.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.jumbotron2{
+    background: url('../../img/web1.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.jumbotron3{
+    background: url('../../img/network.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+.jumbotron4{
+    background: url('../../img/ui.png') no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+}
+
+
+.card-img-top{
+    padding: 10px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.card1{
+    margin-bottom: 15px;
+}
+
+.card2{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn1{
+    float: right;
+    background-color:#44c767;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 29px;
+	text-decoration:none;
+	text-shadow:-1px 1px 23px #2f6627;
+
+}
+.button {
+    display: inline-block;
+    border-radius: 10px;
+    background-color: rgb(255,221,255);
+    border: none;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 15px;
+    padding: 10px;
+    width: 120px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.btn{
+    background-color:#0073ff;
+	-moz-border-radius:21px;
+	-webkit-border-radius:21px;
+	border-radius:21px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:3px 29px;
+	text-decoration:none;
+	text-shadow:-1px 1px 23px #2f6627;
+}
+.btn:hover{
+    background-color:#5cbf2a;
+
+}
+
+.btn:active{
+
+    position:relative;
+	top:1px;
+}
+
+.btn3 {
+    border: none;
+    color: white;
+    font-size: 45px;
+    cursor: pointer;
+    float:right;
+    background: no-repeat;
+    padding: 12px;
+}
+
+.btn4 {
+    border: none;
+    color: white;
+    font-size: 38px;
+    cursor: pointer;
+    float:right;
+    background: no-repeat;
+    padding: 12px;
+}
+
+.tengah{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.myButton3 {
+	background-color:#44c767;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Impact;
+	font-size:21px;
+	font-weight:bold;
+	padding:12px 46px;
+	text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  margin-bottom: 90px;
+}
+.myButton3:hover {
+	background-color:#5cbf2a;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
+}
+
+
+button.accordion {
+    background-color:#ecf3fa;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    /* border: solid 1px #3CF; */
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    transition: 0.4s;
+    font-weight: 600;
+  }
+  button.accordion.active,
+  button.accordion:hover {
+    background-color: #E1F7FB;
+  }
+  button.accordion:after {
+    content: '\25bc';
+    font-size: 13px;
+    color: #777;
+    float: right;
+    margin-left: 5px;
+  }
+  button.accordion.active:after {
+    content: "\25b2";
+    color: #FFF;
+  }
+  .panel {
+    padding-bottom: 18px;
+    background-color:	#ffffff;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1.5s ease-in-out;
+    opacity: 0;
+  }
+  .panel.show {
+    opacity: 1;
+    max-height: 500px;
+  }
+  .panel.hide {
+    opacity: 0;
+    height: 0;
+  }
+  .container1 {
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+
+  .myButton1 {
+	background-color:#44c767;
+	-moz-border-radius:28px;
+	-webkit-border-radius:28px;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Courier New;
+	font-size:17px;
+	font-weight:bold;
+	padding:16px 61px;
+	text-decoration:none;
+    text-shadow:0px 1px 3px #2f6627;
+    position:absolute;
+}
+
+.text1{
+    padding: 3px;
+
+
+}
+
+.text2{
+
+    margin: 25px;
+    margin-top: 5px;
+}
